@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <title>My planet explorer</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <style>
+            body{background-color: indianred;}
+            .navbar{background-color:blue;}
+            .navbar-brand, .nav-link{color:thistle !important;}
+            .section-title{color:turquoise;margin:20px 0 10px;}
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-sm">
+            <a class="navbar-brand" href="#">My Planet Explorer</a>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Planet</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">stars</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="container mt-4">
+           <h4 class="section-title">Scaning the universe for new planets and stars...
+           </h4>
+           <div class="spinner-border text-primary" role="status">
+           </div>
+           <div class="spinner-border text-success" role="status">
+           </div>
+              <div class="spinner-border text-danger" role="status">
+              </div>
+              <h4 class="section-title">Featured Planets and Stars</h4>
+              <div class="row">
+                <div class="col-md-4"><div class="card"><div class="card-body">
+                    <h5 class="card-title">Earth</h5>
+                    <p class="card-text">Our home planet, a unique world with liquid water and a diverse ecosystem.</p>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+                </div></div>
+              </div>
+                <div class="col-md-4"><div class="card"><div class="card-body">
+                        <h5 class="card-title">Mars</h5>
+                        <p class="card-text">The Red Planet, known for its iron oxide surface and potential for future colonization.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div></div>
+        </div>
+                <div class="col-md-4"><div class="card"><div class="card-body">
+                        <h5 class="card-title">Proxima Centauri b</h5>
+                        <p class="card-text">An exoplanet orbiting the closest star to our solar system, potentially habitable.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div></div>
+                </div>
+              </div>
+              <h4 class="section-title">Browse more planets</h4>
+              <ul class="pagination">
+                <li class="page-item"><a class="page-link" href="#">previous</a></li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">next</a></li>
+              </ul>
+              </div>
+    </body>
+</html>
